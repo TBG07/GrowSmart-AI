@@ -1,0 +1,5 @@
+﻿src/app/components/RecentActivityFeed.tsx(83,52): error TS2353: Object literal may only specify known properties, and 'divideColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/components/RecentActivityFeed.tsx(96,53): error TS2322: Type '{ size: number; style: { color: string; }; }' is not assignable to type 'IntrinsicAttributes & { size?: number | undefined; className?: string | undefined; }'.
+  Property 'style' does not exist on type 'IntrinsicAttributes & { size?: number | undefined; className?: string | undefined; }'.
+src/app/components/TrendingTopicsWidget.tsx(66,48): error TS2353: Object literal may only specify known properties, and 'divideColor' does not exist in type 'Properties<string | number, string & {}>'.
+src/app/content-calendar/components/AddContentModal.tsx(78,13): error TS2322: Type 'string' is not assignable to type '"instagram" | "linkedin" | "twitter"'.
